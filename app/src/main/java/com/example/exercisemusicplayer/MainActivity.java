@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         myListViewForSongs = (ListView) findViewById(R.id.mySongListView);
     }
+
+    public void runtimePermission() {
+
+    }
 }
