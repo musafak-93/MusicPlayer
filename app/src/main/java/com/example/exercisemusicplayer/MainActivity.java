@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onPermissionGranted(PermissionGrantedResponse response) {
 
-
+                        display();
                     }
 
                     @Override
