@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     ListView myListViewForSongs;
-
+    String[] items;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,4 +75,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return arrayList;
     }
+
+
 }
